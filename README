@@ -1,0 +1,14 @@
+Universal::Version $Revision: 3.0 $
+==============================
+
+Proof of concept for Version objects to test the behavior of the feature.
+
+Requires Perl 5.7.3 or better to compile since it uses new features of
+xsubpp.
+
+Share and enjoy.
+
+John Peacock
+
+
+

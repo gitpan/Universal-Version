@@ -1,0 +1,58 @@
+Revision history for Perl extension Universal::Version.
+
+NOTE: the revision number here is the CVS revision number, which must
+be divided by 10 to yield the module version number
+
+----------------------------
+revision 3.0
+date: 2002/03/08 22:06:51;  author: jpeacock;  state: Exp;  lines: +1 -20
+Scavange parts of XS_UNIVERSAL__version work
+Use new OVERLOAD feature of xsubpp
+----------------------------
+revision 2.3
+date: 2001/12/18 15:43:02;  author: JPeacock;  state: Exp;  lines: +3 -31
+All operations now handled in XS except numify()
+----------------------------
+revision 2.2
+date: 2001/12/18 14:23:17;  author: JPeacock;  state: Exp;  lines: +3 -16
+stringify() works now thanks to Hugo van der Sanden
+----------------------------
+revision 2.1
+date: 2001/12/17 15:53:45;  author: JPeacock;  state: Exp;  lines: +6 -51
+First XS version that actually works as designed (i.e. doesn't dump core)
+----------------------------
+revision 2.0
+date: 2001/11/27 16:17:45;  author: JPeacock;  state: Exp;  lines: +5 -2
+Move to new revision sequence to signify addition of XS features
+----------------------------
+revision 1.6
+date: 2001/11/21 15:53:40;  author: JPeacock;  state: Exp;  lines: +3 -3
+Better handling of underscore to decimal translation
+----------------------------
+revision 1.5
+date: 2001/11/20 20:57:31;  author: JPeacock;  state: Exp;  lines: +2 -19
+Remove spaceship operator (not needed)
+----------------------------
+revision 1.4
+date: 2001/11/20 20:47:14;  author: JPeacock;  state: Exp;  lines: +47 -5
+Add numify() operator and preprocess version strings before v-string'ing
+----------------------------
+revision 1.3
+date: 2001/11/19 20:17:44;  author: JPeacock;  state: Exp;  lines: +88 -8
+Time to send this off to p5p to get eviserated
+----------------------------
+revision 1.2
+date: 2001/11/19 19:04:27;  author: JPeacock;  state: Exp;  lines: +15 -3
+Check to make sure Revision stuff works
+Start setting up the overload
+----------------------------
+revision 1.1
+date: 2001/11/19 18:57:54;  author: JPeacock;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2001/11/19 18:57:54;  author: JPeacock;  state: Exp;  lines: +0 -0
+Pure Perl Version objects
+=============================================================================
+
